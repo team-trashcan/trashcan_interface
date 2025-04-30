@@ -21,6 +21,26 @@ h1 {
   @apply text-4xl leading-tight;
 }
 
+h2 {
+  @apply text-3xl leading-tight;
+}
+
+h3 {
+  @apply text-2xl leading-tight;
+}
+
+h4 {
+  @apply text-xl leading-tight;
+}
+
+h5 {
+  @apply text-lg leading-tight;
+}
+
+h6 {
+  @apply text-base leading-tight;
+}
+
 button {
   @apply rounded-lg border border-transparent
   p-2 cursor-pointer transition;

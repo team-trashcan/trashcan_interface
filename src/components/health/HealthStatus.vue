@@ -12,7 +12,7 @@ defineProps<{
         <HealthMessage status="Ok"/>
     </div>
 
-    <div class="flex gap-5">
+    <div class="flex gap-2">
         <HealthMessage v-if="amountError > 0" status="Error" :amount="amountError"/>
         <HealthMessage v-if="amountWarning > 0" status="Warning" :amount="amountWarning"/>
     </div>

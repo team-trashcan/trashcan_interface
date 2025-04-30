@@ -22,8 +22,8 @@ defineProps<{
 
         <p class="flex-grow text-center font-semibold">
             {{ status === 'Ok' ? 'Everything is fine!'
-            : status === 'Warning' ? `${amount} trashcans are nearly full!`
-                : `${amount} trashcans are full!` }}
+                : status === 'Warning' ? `${amount} trashcans are nearly full!`
+                    : `${amount} trashcans are full!` }}
         </p>
     </div>
 </template>
